@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+/*--header section---*/
+header{
+	width: 100%;
+	background-color: #12182A;
+	padding: 7px 0;
+	display: inline-block;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+   
+
+}
+nav{
+	width: 80%;
+	float: right;
+}
+nav ul{
+	width: 100%;
+	text-align: right;
+    margin-top: 25px;
+}
+nav ul li{
+	list-style: none;
+	padding-left: 30px;
+	font-size: 20px;
+	display: inline-block;
+}
+nav ul li a{
+    color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+/*-- <!---BANNER SECTION--->---*/
+.banner_section{
+	background-image: url('./image/ff.png');
+	width: 100%;
+	height: 500px;
+	padding: 20px 0;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_1{
+	width: 50%;
+	display: inline-block;
+	margin-top:200px;
+}
+.banner_1 h1{
+	 color: white;
+	 margin-bottom: 5px;
+	 font-size: 30px;
+}
+.banner_1 h2{
+	 color: blue;
+	 margin-bottom: 10px;
+	 font-size: 25px;
+}
+.banner_1 p{
+	 color: white;
+	 margin-bottom: 20px;
+
+}
+.banner_1 button{
+	padding: 10px 20px;
+	font-size: 20px;
+	border: none;
+	background-color: white;
+	border-radius: 3px;
+	font-weight: 200;
+}
+.banner_1 button:hover{
+	background-color: blue;
+	color: white;
+}
+
+/*---service section---*/
+.service_section{
+	width: 100%;
+	background-color:#121B2C;
+	padding: 2px 0;
+
+}
+.service_1
+{
+	width: 28%;
+	display: inline-block;
+	overflow: hidden;
+	margin: 18px 0px;
+	padding: 27px;
+	border-right: 2px solid white;
+
+}
+.service_1:last-child{
+	border-right: none;
+	padding-left: 22px;
+}
+.service_1:first-child{
+	padding-left: 0px!important;
+}
+.upper{
+	width: 100%;
+	margin-top: 10px;
+	display: inline-block;
+}
+.left{
+	width: 20%;
+	float: left;
+}
+.left img{}
+.right{
+	width: 60%;
+	float: left;
+	padding: 12px 5px;
+
+}
+.right h2{
+	color: white;
+}
+.right h3{
+	color: blue;
+}
+.lower{
+	width: 100%;
+	display: inline-block;
+}
+.lower p{
+	color: white;
+	padding: 10px 0;
+
+}
+.addvertise_section{
+	width: 100%;
+	background-color:black;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.addvertise_1{
+	width: 31%;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+
+}
+.upper_add{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	display: block;
+}
+.left_add{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-bottom: 5px;
+}
+.left_add h2{
+	color: white;
+}
+.right_add{
+	width: 45%;
+	float: left;
+	margin-left: 10px;
+	}
+.right_add h2{
+	color: blue;
+	
+}
+
+.lower_add{
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+}
+.lower_add h4{
+	color: white;
+	font-size: 12px;
+	margin-bottom: 40px;
+	
+}
+.lower_add p{
+	color: white;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+.upper_add_2{
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 0px;
+}
+.lower_2 h4{
+	color: white;
+	margin-left: 20px;
+
+}
+.lower_2 p{
+	color: white;
+	margin-left: 20px;
+}
+.left_div{
+	width: 26%;
+	display: inline-block;
+	margin: 20px 0;
+}
+.left_div img{
+     max-width: 100%;
+     height: 180px;
+     padding: 10px 10px;
+     margin-left: 20px;
+}
+.right_div{
+	width: 56%;
+	float: right;
+	margin-left: 0 20px ;
+	margin-top: 40px;
+	
+}
+footer{
+	width: 100%;
+	overflow: hidden;
+	background-color: #111B2C;
+	padding: 5px 0;
+}
+.container_box{
+	width: 90%;
+}
+.footer_menu{
+	width: 60%;
+	display: inline-block;
+}
+.menu{
+	width: 100%;
+	display: inline-block;
+
+}
+.menu ul{
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 30px;
+   
+
+}
+.menu ul li{
+	list-style: none;
+	font-size: 12px;
+	display: inline-block;
+	border-right: 1px solid white;
+	padding: 0px 10px;
+
+}
+.menu ul li:last-child{
+	border-right: none;
+	
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+    float: right;
+    margin-bottom: 5px;
+
+}
+.footer_menu p{
+	color: white;
+	margin-left: 50px;
+	margin-top:0 auto;
+	font-size: 10px;
+	
+
+}
+.social_image{
+	width: 35%;
+	float: right;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+.social_image img{
+	max-width: 100%;
+	display: inline-block;
+}
